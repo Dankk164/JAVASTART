@@ -6,8 +6,8 @@ public class homework1 {
         int b;
         a=7;
         b=9;
-        a=b;
-        b=a;
+        a=++a+1;
+        b=--b-1;
         System.out.println(a);
         System.out.println(b);
     }
